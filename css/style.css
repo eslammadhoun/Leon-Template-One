@@ -38,6 +38,9 @@
 html {
     scroll-behavior: smooth;
 }
+html:not(header .links ul):focus-within ul{
+    display: none;
+}
 body {
     font-family: "work sans", sans-serif;
     position: relative;
